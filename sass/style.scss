@@ -281,7 +281,7 @@ button:hover {
 }
    
 @keyframes fade2 {
-    from {transform: translateX(-1000px); opacity: .4;}
+    from {transform: translateX(-800px); opacity: .4;}
     to {transform: translateX(0);opacity: 1;}
 }
 
@@ -294,14 +294,14 @@ button:hover {
 }
 
 .fade {
- animation: fade .5s ease-out   forwards;
- 
-}
-
-@keyframes fade {
-    from {transform: translateX(1000px); opacity: .4;}
-    to {transform: translateX(0);opacity: 1;}
-}
+    animation: fade .5s ease-out   forwards;
+    
+   }
+   
+   @keyframes fade {
+       from {transform: translateX(800px); opacity: .4;}
+       to {transform: translateX(0);opacity: 1;}
+   }
 
 .about {
  display: flex;
